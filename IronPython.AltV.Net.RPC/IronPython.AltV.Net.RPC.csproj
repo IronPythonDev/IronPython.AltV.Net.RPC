@@ -4,6 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackageProjectUrl>https://github.com/IronPythonDev/IronPython.AltV.Net.RPC</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/IronPythonDev/IronPython.AltV.Net.RPC</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
