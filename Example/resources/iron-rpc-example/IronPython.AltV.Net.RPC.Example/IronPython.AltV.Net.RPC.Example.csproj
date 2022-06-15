@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AltV.Net" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\IronPython.AltV.Net.RPC\IronPython.AltV.Net.RPC.csproj" />
+    <ProjectReference Include="..\IronPython.AltV.Net.RPC.Example.Shared\IronPython.AltV.Net.RPC.Example.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

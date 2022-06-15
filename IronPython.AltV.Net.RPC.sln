@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPython.AltV.Net.RPC", "IronPython.AltV.Net.RPC\IronPython.AltV.Net.RPC.csproj", "{C6B1CAFD-A295-4D4D-9873-71C213C1718A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPython.AltV.Net.RPC.Client", "IronPython.AltV.Net.RPC.Client\IronPython.AltV.Net.RPC.Client.csproj", "{70C29D0A-0078-4991-83B5-EA8F9AD21BB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPython.AltV.Net.RPC.Shared", "IronPython.AltV.Net.RPC.Shared\IronPython.AltV.Net.RPC.Shared.csproj", "{35F44CEA-3BEE-4540-99B2-2B54BF3146FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{270AC965-703D-4573-BC52-7101F5F1DEE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPython.AltV.Net.RPC.Example.Shared", "Example\resources\iron-rpc-example\IronPython.AltV.Net.RPC.Example.Shared\IronPython.AltV.Net.RPC.Example.Shared.csproj", "{F554F623-6D11-4A76-A9EA-0677A0F34C9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPython.AltV.Net.RPC.Example.Client", "Example\resources\iron-rpc-example\IronPython.AltV.Net.RPC.Example.Client\IronPython.AltV.Net.RPC.Example.Client.csproj", "{D97E898C-25C0-49FD-A15D-BE6D39E472A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPython.AltV.Net.RPC.Example", "Example\resources\iron-rpc-example\IronPython.AltV.Net.RPC.Example\IronPython.AltV.Net.RPC.Example.csproj", "{D478AD20-3DF8-4523-84FF-5065547234E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B1CAFD-A295-4D4D-9873-71C213C1718A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B1CAFD-A295-4D4D-9873-71C213C1718A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B1CAFD-A295-4D4D-9873-71C213C1718A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B1CAFD-A295-4D4D-9873-71C213C1718A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C29D0A-0078-4991-83B5-EA8F9AD21BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C29D0A-0078-4991-83B5-EA8F9AD21BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C29D0A-0078-4991-83B5-EA8F9AD21BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C29D0A-0078-4991-83B5-EA8F9AD21BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F44CEA-3BEE-4540-99B2-2B54BF3146FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F44CEA-3BEE-4540-99B2-2B54BF3146FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F44CEA-3BEE-4540-99B2-2B54BF3146FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F44CEA-3BEE-4540-99B2-2B54BF3146FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F554F623-6D11-4A76-A9EA-0677A0F34C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F554F623-6D11-4A76-A9EA-0677A0F34C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F554F623-6D11-4A76-A9EA-0677A0F34C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F554F623-6D11-4A76-A9EA-0677A0F34C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97E898C-25C0-49FD-A15D-BE6D39E472A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97E898C-25C0-49FD-A15D-BE6D39E472A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97E898C-25C0-49FD-A15D-BE6D39E472A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97E898C-25C0-49FD-A15D-BE6D39E472A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D478AD20-3DF8-4523-84FF-5065547234E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D478AD20-3DF8-4523-84FF-5065547234E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D478AD20-3DF8-4523-84FF-5065547234E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D478AD20-3DF8-4523-84FF-5065547234E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F554F623-6D11-4A76-A9EA-0677A0F34C9C} = {270AC965-703D-4573-BC52-7101F5F1DEE4}
+		{D97E898C-25C0-49FD-A15D-BE6D39E472A5} = {270AC965-703D-4573-BC52-7101F5F1DEE4}
+		{D478AD20-3DF8-4523-84FF-5065547234E1} = {270AC965-703D-4573-BC52-7101F5F1DEE4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {858064F7-5D33-4B3B-A30F-E74DCA941EC5}
+	EndGlobalSection
+EndGlobal

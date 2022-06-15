@@ -1,0 +1,15 @@
+bin
+obj
+Properties
+*.csproj.user
+cache
+data
+modules
+altv-server.exe
+AltV.Net.Host.dll
+AltV.Net.Host.runtimeconfig.json
+*.log
+server.cfg
+*.vs
+**/resources/chat/*
+**/resources/freeroam/*
