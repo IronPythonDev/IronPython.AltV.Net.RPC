@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AltV.Net" Version="10.0.9" />
+    <PackageReference Include="AltV.Net.Async" Version="10.0.9" />
+  </ItemGroup>
+
 </Project>
