@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
 	<PackageProjectUrl>https://github.com/IronPythonDev/IronPython.AltV.Net.RPC</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/IronPythonDev/IronPython.AltV.Net.RPC</RepositoryUrl>
+	<Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
