@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ES2022",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "dist",
+      "forceConsistentCasingInFileNames": true,   
+      "skipLibCheck": true ,
+      "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/@altv"
+      ],
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }

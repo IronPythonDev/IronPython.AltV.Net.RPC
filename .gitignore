@@ -13,3 +13,6 @@ server.cfg
 *.vs
 **/resources/chat/*
 **/resources/freeroam/*
+node_modules
+dist
+package-lock.json
